@@ -55,3 +55,19 @@
     }
 }
 }
+@media (max-width:998px){
+  .activity-item{
+    .activity-item-main{
+      .activity-info{
+        p{
+          color:$third-color ;
+        }
+      }
+    }
+    .activity-item-footer {
+      a{
+      color: $third-color;
+    }}
+    }
+  }
+    

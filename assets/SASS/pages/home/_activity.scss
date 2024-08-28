@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: $font-lato;
+  font-family: $font-lato;}
   #activity {
    
     
@@ -12,7 +12,7 @@ body {
         height: 70vh;
         width: 100%;
         position: absolute;
-        top: 140px;
+        top: 158px;
        
         // z-index: 0;
         background-color: $bg-color;
@@ -31,4 +31,18 @@ body {
     }
    
   }
+  @media (max-width:998px){
+#activity::after{
+  display: none;
 }
+  }
+
+@media (max-width:768px){
+  #activity{
+  .activity-header {
+    
+    a {
+     font-size: 50px;
+    
+    }
+}}}

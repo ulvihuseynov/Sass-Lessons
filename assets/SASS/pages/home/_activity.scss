@@ -1,0 +1,34 @@
+
+
+body {
+  font-family: $font-lato;
+  #activity {
+   
+    
+    position: relative;
+    &::after{
+        content: "";
+     
+        height: 70vh;
+        width: 100%;
+        position: absolute;
+        top: 140px;
+       
+        // z-index: 0;
+        background-color: $bg-color;
+    }
+   
+    .activity-header {
+    
+        a {
+          color: $primary-color;
+          font-size: $font-heading;
+        letter-spacing: -3px;
+        font-weight: $fw-500;
+        
+        }
+      
+    }
+   
+  }
+}

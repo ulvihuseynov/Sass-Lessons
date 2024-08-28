@@ -1,0 +1,57 @@
+.activity-item {
+    border: 8px solid $primary-color;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  
+  .activity-item-header {
+    p {
+      font-size: $font-16;
+      color: $secondary-color;
+      font-weight: $fw-500;
+      background-color:$primary-color ;
+      word-spacing: 4px;
+      padding: 16px 0;
+      text-transform: uppercase;
+    }
+  }
+  .activity-item-main {
+ 
+    text-align: center;
+    .activity-img {
+        margin: 30px 0;
+      img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+    .activity-info{
+        p{
+            font-size: $font-16;
+            color: $secondary-color;
+            font-weight: $fw-500;
+            padding: 0 25px 35px;
+          
+        }
+    }
+   
+  }
+  .activity-item-footer{
+    border-top: 8px solid $primary-color;
+    padding: 25px;
+    transition: all .4s;
+    &:hover{
+        background-color: $secondary-color;
+        a{
+            color:$primary-color;
+        }
+    }
+    a{
+       font-size: $font-secondary; 
+       color: $secondary-color;
+       text-align: center;
+    font-weight: $fw-900;
+     
+    }
+}
+}

@@ -1,0 +1,29 @@
+// font-size
+$base:4px;
+$font-16:16px;
+$font-secondary:20px;
+$font-icon:120px;
+$font-heading:68px;
+
+
+// color
+$primary-color:#307FE2;
+$secondary-color:#fff;
+$third-color:#000;
+$bg-color: #000c;
+
+//font-family
+@import 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap';
+
+$font-lato: "Lato", sans-serif;
+
+// font-weight
+$fw-100:100px;
+$fw-200:200px;
+$fw-300:300px;
+$fw-400:400px;
+$fw-500:500px;
+$fw-600:600px;
+$fw-700:700px;
+$fw-800:800px;
+$fw-900:900px;
